@@ -4,7 +4,7 @@
 
 /* BOOSTRAP CUSTOMIZATION
 ================================================== */
-h1.small{display: none;}
+h1.large-s{display: none;}
 .navbar {margin-bottom:0;}
 .navbar-inverse {background:none; border:none;}
 .navbar-inverse .navbar-toggle {
@@ -17,7 +17,7 @@ h1.small{display: none;}
 }
 
 @media(max-width: 767px){
-	h1.small{display: block !important; margin-top: 15px;}
+	h1.large-s{display: block !important;}
 	h1.large{display: none}
 }
 
@@ -98,6 +98,10 @@ footer{
 .small {
 	font-size: 18px;
 	line-height: 1;
+}
+
+.large-s {
+	font-size: 44px;
 }
 
 .page-header h1 {color: #424242;}
